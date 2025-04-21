@@ -1,0 +1,52 @@
+CAROTENOIDES
+
+BISSE-50
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppBiSSECar.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+CID
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppCIDCar.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+
+HISSE
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppHiSSECar.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+
+
+
+
+FRUGIVORY
+BISSE
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppBiSSEFrug.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+
+CID
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppCIDFrug.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+HISSE-36
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppHiSSEFrug.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+
+
+
+
+
+FRUGIVORY AND CAROTENOIDES
+
+MUSSE-50
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppMuSSE.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+CID-36
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppCIDMuHiSSE.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
+
+
+MUHISSE
+ss = steppingStoneSampler(file="/Users/veronicari/Documentos/GitHub/PasserDiversification/SSEModelComparition/ppMuHiSSE.out", powerColumnName="power", likelihoodColumnName="likelihood")
+ss.marginal() 
